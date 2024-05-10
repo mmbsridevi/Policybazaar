@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-09T12:06:55 IST" name="Suite" finished-at="2024-05-09T12:07:47 IST" duration-ms="51239">
+    <groups>
+    </groups>
+    <test started-at="2024-05-09T12:06:55 IST" name="Test" finished-at="2024-05-09T12:07:47 IST" duration-ms="51239">
+      <class name="TestCases.Tests">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:06:56 IST" name="beforeClass" finished-at="2024-05-09T12:07:04 IST" duration-ms="8075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.policybazaar.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="open_travel_insurance()[pri:1, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:04 IST" name="open_travel_insurance" finished-at="2024-05-09T12:07:07 IST" duration-ms="2793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_travel_insurance -->
+        <test-method signature="select_destination()[pri:2, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:07 IST" name="select_destination" finished-at="2024-05-09T12:07:07 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_destination -->
+        <test-method signature="click_Date()[pri:3, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:08 IST" name="click_Date" finished-at="2024-05-09T12:07:09 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Date -->
+        <test-method signature="click_No_of_persons()[pri:4, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:09 IST" name="click_No_of_persons" finished-at="2024-05-09T12:07:10 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_No_of_persons -->
+        <test-method signature="MedicalHistory()[pri:5, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:11 IST" name="MedicalHistory" finished-at="2024-05-09T12:07:13 IST" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicalHistory -->
+        <test-method signature="enter_mob_no()[pri:6, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:13 IST" name="enter_mob_no" finished-at="2024-05-09T12:07:18 IST" duration-ms="4703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_mob_no -->
+        <test-method signature="Viewplan()[pri:7, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:18 IST" name="Viewplan" finished-at="2024-05-09T12:07:28 IST" duration-ms="9539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Viewplan -->
+        <test-method signature="lowest_prices_of_three_insurances()[pri:8, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:28 IST" name="lowest_prices_of_three_insurances" finished-at="2024-05-09T12:07:29 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowest_prices_of_three_insurances -->
+        <test-method signature="print_First_Three_companies()[pri:9, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:29 IST" name="print_First_Three_companies" finished-at="2024-05-09T12:07:29 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_First_Three_companies -->
+        <test-method signature="go_To_Home_Page()[pri:10, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:29 IST" name="go_To_Home_Page" finished-at="2024-05-09T12:07:31 IST" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_To_Home_Page -->
+        <test-method signature="carInsurance()[pri:11, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:31 IST" name="carInsurance" finished-at="2024-05-09T12:07:41 IST" duration-ms="9800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carInsurance -->
+        <test-method signature="cardetails()[pri:12, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:41 IST" name="cardetails" finished-at="2024-05-09T12:07:45 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardetails -->
+        <test-method signature="InputValues()[pri:13, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:45 IST" name="InputValues" finished-at="2024-05-09T12:07:45 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputValues -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestCases.Tests@673fdbce]" started-at="2024-05-09T12:07:46 IST" name="afterClass" finished-at="2024-05-09T12:07:47 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCases.Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
