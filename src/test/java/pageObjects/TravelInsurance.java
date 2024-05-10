@@ -99,14 +99,14 @@ public class TravelInsurance {
 		for(WebElement ele: dates)
 		{
 			String val=ele.getText();
-			if(val.equalsIgnoreCase("10"))
+			if(val.equalsIgnoreCase("20"))
 			{
 				Assert.assertTrue(ele.isEnabled());
 				System.out.println("StartDate Element is clickable");
 				ele.click();
 				
 			}
-			else if(val.equalsIgnoreCase("14"))
+			else if(val.equalsIgnoreCase("30"))
 			{
 				Assert.assertTrue(ele.isEnabled());
 				System.out.println("EndDate Element is clickable");
@@ -240,9 +240,9 @@ public class TravelInsurance {
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,280)", "");
-//		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(40));
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class=\"travel_main_cta\"]")));
-		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(40));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class=\"travel_main_cta\"]")));
+		//Thread.sleep(2000);
 		next4.click();
 		
 	}
